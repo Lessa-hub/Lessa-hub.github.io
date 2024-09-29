@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
 }
 
@@ -32,7 +32,7 @@ body {
     background-color: #99BF73;
     border-radius: 5px;
     color: #3a3a39;
-    padding: 4px;
+    padding: 6px;
 }
 
 .welcome-text {
