@@ -1,60 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 
-
-html,
 body {
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
     background-color: #E2FCC5;
-}
-
-
-.div1 {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-.welcome {
-    background-color: #99BF73;
-    font-size: 20px;
-    border-radius: 25px;
-    padding: 15px 40px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    display: inline-block;
-}
-
-.btn {
-    background-color: #99BF73;
-    padding: 15px;
-    border-radius: 25px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.btn i {
-    font-size: 20px;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 .card {
-
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    width: 100%;
-    max-width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
     text-align: center;
-    padding: 20px;
-    margin: auto;
-    margin-top: 55px;
+    padding: 10px;
 }
 
-.perfil-img {}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
-.descricao {}
+.material-symbols-outlined {
+    background-color: #99BF73;
+    border-radius: 5px;
+    color: #3a3a39;
+    padding: 4px;
+}
+
+.welcome-text {
+    font-weight: bold;
+    color: #3a3a39;
+    background-color: #99BF73;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+}
+
+.image-section img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.bio {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4B4952;
+}
+
+.highlight {
+    color: #678C30;
+    font-weight: bold;
+}
