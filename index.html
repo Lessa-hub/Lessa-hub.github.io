@@ -20,8 +20,6 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-
-
 </head>
 
 <body>
@@ -41,12 +39,23 @@
                 Sou <span class="highlight">ISTJ</span> 🧠, <span class="highlight">aquariana</span>
                 ♒, e amo praticamente todos os estilos de música 🎶
                 <span class="highlight">(menos rock 🙅‍♀️)</span>. Apaixonada por animais 🐾 e pela natureza 🌿!"
-
-
             </p>
         </div>
-
     </div>
+
+    <script>
+        // Bloquear Ctrl+U
+        document.addEventListener("keydown", function (event) {
+            if (event.ctrlKey && event.key === 'u') {
+                event.preventDefault();
+            }
+        });
+
+        // Bloquear botão direito
+        document.addEventListener("contextmenu", function (event) {
+            event.preventDefault();
+        });
+    </script>
 
 </body>
 
